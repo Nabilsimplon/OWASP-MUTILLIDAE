@@ -40,7 +40,7 @@ Installer pour ceux faire via le terminal [gcc,make,perl] avec la commande:
 
 Lancer le terminal et faite la commande suivante:
 
-sudo apt install apache2
+````sudo apt install apache2````
 
 4 Installer PHP
 
@@ -66,5 +66,5 @@ Vous pouvez à présent aller sur le navigateur web et lancer dans la barre de r
 
 **localhost/mutillidae**
 
-![mutillidae]
+! [mutillidae]
 (Screenshot 2021-07-26 at 07-54-57 Screenshot.png)
