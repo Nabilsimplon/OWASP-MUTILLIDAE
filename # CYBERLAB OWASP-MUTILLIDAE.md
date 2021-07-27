@@ -1,9 +1,5 @@
 # CYBERLAB OWASP-MUTILLIDAE
 23.07.2021
-'''' p
-{
-    color: blue;
-}
 
 Nabil Kerour
 
@@ -29,40 +25,40 @@ Créer une documentation technique en Markdown sur le dépôt GitHub.
 
 Mettre à jour Ubuntu une fois la VM démarrée, pour cela lancer le terminal pour passer en mode console une fois l'installation de Ubuntu terminée et entrée les commandes suivantes:
 
- sudo apt-get update pour rechercher les mises à jours
+sudo -s pour la fonction Administrateur jusqu'a la prochaine fermeture du terminal!
+
+ apt-get update pour rechercher les mises à jours
  
- sudo apt install pour les installées.
+ apt-get upgrade pour les installées.
 
 2  Installer les ajouts d'invité VirtualBox
 sur Ubuntu.
 
 Installer pour ceux faire via le terminal [gcc,make,perl] avec la commande:
 
- sudo apt install gcc make perl, ensuite sélection dans périphérique l'image du cd des ajout invité et lancer l'installation en automatique. 
+ apt install gcc make perl, ensuite sélectionné l'onglet périphérique l'image du cd des ajouts d'invité et lancer l'installation en automatique. 
 
 3  Installer le serveur Web Apache
 
-Lancer le terminal et faite la commande suivante:
-
-sudo apt install apache2
+apt install apache2
 
 4 Installer PHP
 
-Lancer le terminal et faite la commande suivante:
+apt install php
 
-sudo apt install php
+apt install php libapache2-mod-php php-mysql
 
 5 Installer MariaDB
 
-Lancer le terminal et faite la commande suivante:
+apt install mariadb-server
 
-sudo apt install mariadb
+mysql_secure_installation pour changer le mot de passe 
 
 6 Installer Mutillidae
 
-Lancer le terminal et faite la commande suivante:
+On va aller dans le dossier ou déposer le fichier avant en tapant via le terminal:
 
-cd /var/www/html/ qui vous permet d'etre sur le dossier ou sera déposé le fichier et taper la ligne suivante:
+cd /var/www/html/ et taper la ligne suivante pour installer Mutillidae:
 
 *git clone https://git.code.sf.net/p/mutillidae/git mutillidae*
 
@@ -70,5 +66,8 @@ Vous pouvez à présent aller sur le navigateur web et lancer dans la barre de r
 
 **localhost/mutillidae**
 
-! [mutillidae] (C:\Users\utilisateur\Pictures\Screenshots\Capture d’écran 73.png)
+Penser a restart les services mysql apache2 en tapant via le terminal service (....) restart
 
+Pour vérifier l'etat de fonctionnement des services la commande **services --status** le + indique que un service et actif et - le service et inactif.
+
+Merci d'avoir suivi cette doc redigée en MARKDOWN toutes remarques ou appreciations et la Bienvenue 
