@@ -1,5 +1,9 @@
 # CYBERLAB OWASP-MUTILLIDAE
 23.07.2021
+'''' p
+{
+    color: blue;
+}
 
 Nabil Kerour
 
@@ -40,7 +44,7 @@ Installer pour ceux faire via le terminal [gcc,make,perl] avec la commande:
 
 Lancer le terminal et faite la commande suivante:
 
-````sudo apt install apache2````
+sudo apt install apache2
 
 4 Installer PHP
 
@@ -66,5 +70,5 @@ Vous pouvez à présent aller sur le navigateur web et lancer dans la barre de r
 
 **localhost/mutillidae**
 
-! [mutillidae] (C:\Users\utilisateur\Pictures\Screenshots\Capture d’écran (73).png)
+! [mutillidae] (C:\Users\utilisateur\Pictures\Screenshots\Capture d’écran 73.png)
 
