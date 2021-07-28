@@ -19,7 +19,7 @@ Créer une documentation technique en Markdown sur le dépôt GitHub.
 
 **Etapes détailler a suivre**
 
-1 Installer une VM Ubuntu dans Virtualbox.
+* 1 Installer une VM Ubuntu dans Virtualbox.
 
 >https://www.ubuntu-fr.org/download/< 
 
@@ -31,30 +31,30 @@ sudo -s pour la fonction Administrateur jusqu'a la prochaine fermeture du termin
  
  apt-get upgrade pour les installées.
 
-2  Installer les ajouts d'invité VirtualBox
+* 2  Installer les ajouts d'invité VirtualBox
 sur Ubuntu.
 
 Installer pour ceux faire via le terminal [gcc,make,perl] avec la commande:
 
  apt install gcc make perl, ensuite sélectionné l'onglet périphérique l'image du cd des ajouts d'invité et lancer l'installation en automatique. 
 
-3  Installer le serveur Web Apache
+* 3  Installer le serveur Web Apache
 
 apt install apache2
 
-4 Installer PHP
+* 4 Installer PHP
 
 apt install php
 
 apt install php libapache2-mod-php php-mysql
 
-5 Installer MariaDB
+* 5 Installer MariaDB
 
 apt install mariadb-server
 
 mysql_secure_installation pour changer le mot de passe 
 
-6 Installer Mutillidae
+* 6 Installer Mutillidae
 
 On va aller dans le dossier ou déposer le fichier avant en tapant via le terminal:
 
@@ -70,4 +70,6 @@ Penser a restart les services mysql apache2 en tapant via le terminal service (.
 
 Pour vérifier l'etat de fonctionnement des services la commande **services --status** le + indique que un service et actif et - le service et inactif.
 
-Merci d'avoir suivi cette doc redigée en MARKDOWN toutes remarques ou appreciations et la Bienvenue 
+Merci d'avoir suivi cette doc redigée en MARKDOWN toutes remarques ou appreciations et la Bienvenue.
+
+! (C:\Users\utilisateur\Pictures\download.jpg ) 
