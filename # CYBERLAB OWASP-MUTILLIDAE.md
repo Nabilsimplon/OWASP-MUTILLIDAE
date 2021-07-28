@@ -66,8 +66,13 @@ Vous pouvez à présent aller sur le navigateur web et lancer dans la barre de r
 
 **localhost/mutillidae**
 
-Penser a restart les services mysql apache2 en tapant via le terminal service (....) restart
+'''p
+{
+    color:red;
 
+    Penser a restart les services mysql apache2 en tapant via le terminal service (....) restart
+}
+''' 
 Pour vérifier l'etat de fonctionnement des services la commande **services --status** le + indique que un service et actif et - le service et inactif.
 
 Merci d'avoir suivi cette doc redigée en MARKDOWN toutes remarques ou appreciations et la Bienvenue.
