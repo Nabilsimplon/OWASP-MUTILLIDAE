@@ -73,3 +73,9 @@ Pour vérifier l'etat de fonctionnement des services la commande **services --st
 Merci d'avoir suivi cette doc redigée en MARKDOWN toutes remarques ou appreciations et la Bienvenue.
 
 ! (C:\Users\utilisateur\Pictures\download.jpg)
+'''
+p
+{
+    color:blue;
+}
+'''
