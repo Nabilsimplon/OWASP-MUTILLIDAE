@@ -15,7 +15,19 @@ Sur un LAPTOP sous Windows 10 avec un VM fonctionnelle sous Linux (Ubuntu), le P
 
 Site Mutillidae sous LAMP.
 
-Créer une documentation technique en Markdown sur le dépôt GitHub. 
+Créer une documentation technique en Markdown sur le dépôt GitHub.
+
+**DEFINITION**
+
+*Présentation d'OWASP*
+
+[OWASP](image/téléchargement.htm)
+
+>https://www.owasp.org/
+
+1 La communauté OWASP (Open Web Application Security project) est une communauté travaillant sur la sécurité des
+applications web. Elle a pour but de publier des recommandations de sécurisation des sites web et
+propose des outils permettant de tester la sécurité des applications web.
 
 **Etapes détailler a suivre**
 
@@ -40,21 +52,41 @@ Installer pour ceux faire via le terminal [gcc,make,perl] avec la commande:
 
 * 3  Installer le serveur Web Apache
 
-apt install apache2
+[Apache](image/téléchargement2.png)
+
+Apache est conçu pour prendre en charge de nombreux modules lui donnant des fonctionnalités supplémentaires : interprétation du langage Perl, PHP, Python et Ruby, serveur proxy, Common Gateway Interface, Server Side Includes, réécriture d'URL, négociation de contenu, protocoles de communication additionnels, etc. Néanmoins, il est à noter que l'existence de nombreux modules Apache complexifie la configuration du serveur web. En effet, les bonnes pratiques recommandent de ne charger que les modules utiles : de nombreuses failles de sécurité affectant uniquement les modules d'Apache sont régulièrement découvertes.
+
+Lancer le terminal et taper: apt install apache2
+
+On doit retrouver via le navigateur en tapant (localhost)
+
+[Résultat](téléchargement2.png)
 
 * 4 Installer PHP
 
-apt install php
+[PHP](image/téléchargement3.jpg)
+
+PHP: Hypertext Preprocessor19, plus connu sous son sigle PHP (sigle auto-référentiel), est un langage de programmation libre20, principalement utilisé pour produire des pages Web dynamiques via un serveur HTTP19, mais pouvant également fonctionner comme n'importe quel langage interprété de façon locale. PHP est un langage impératif orienté objet.
+
+PHP a permis de créer un grand nombre de sites web célèbres, comme Facebook et Wikipédia21. Il est considéré comme une des bases de la création de sites web dits dynamiques mais également des applications web.
+
+ouvrir le terminal et taper: apt install php
 
 apt install php libapache2-mod-php php-mysql
 
 * 5 Installer MariaDB
 
-apt install mariadb-server
+[MARIADB](image/téléchargement.jpg)
 
-mysql_secure_installation pour changer le mot de passe 
+En 2009, à la suite du rachat de MySQL par Sun Microsystems et des annonces du rachat de Sun Microsystems par Oracle Corporation, Michael Widenius, fondateur de MySQL, quitte cette société6 pour lancer le projet MariaDB, dans une démarche visant à remplacer MySQL tout en assurant l’interopérabilité. Le nom vient de la 2e fille de Michael Widenius, Maria (la première s'appelant My).
+
+Lancer le terminal et taper: apt install mariadb-server.
+
+taper: (mysql_secure_installation) pour changer le mot de passe. 
 
 * 6 Installer Mutillidae
+
+[Mutillidae](image/06.jpg)
 
 On va aller dans le dossier ou déposer le fichier avant en tapant via le terminal:
 
@@ -66,15 +98,17 @@ Vous pouvez à présent aller sur le navigateur web et lancer dans la barre de r
 
 **localhost/mutillidae**
 
-'''p
-{
-    color:red;
-
-    Penser a restart les services mysql apache2 en tapant via le terminal service (....) restart
-}
-''' 
+Penser a restart les services mysql apache2 en tapant via le terminal service (....) restart
+ 
 Pour vérifier l'etat de fonctionnement des services la commande **services --status** le + indique que un service et actif et - le service et inactif.
 
-Merci d'avoir suivi cette doc redigée en MARKDOWN toutes remarques ou appreciations et la Bienvenue.
+* 7 GITHUB
+  
+[GITHUB](image/téléchargement4.png)
 
-! [mikey](image/download.jpg)
+  Utiliser une plateforme de projet collaboratif pour déposer la documentation technique.  
+
+Git et un language,une techno.
+
+Merci d'avoir suivi cette doc redigée en **MARKDOWN** toutes remarques ou appreciations et la Bienvenue.
+
