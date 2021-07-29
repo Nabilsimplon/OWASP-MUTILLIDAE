@@ -98,7 +98,9 @@ Vous pouvez à présent aller sur le navigateur web et lancer dans la barre de r
 
 **localhost/mutillidae**
 
-Penser a restart les services mysql apache2 en tapant via le terminal service (....) restart
+Penser a restart les services mysql et apache2 en tapant via le terminal:
+
+service (....) restart
  
 Pour vérifier l'etat de fonctionnement des services la commande **services --status** le + indique que un service et actif et - le service et inactif.
 
@@ -108,7 +110,7 @@ Pour vérifier l'etat de fonctionnement des services la commande **services --st
 
   Utiliser une plateforme de projet collaboratif pour déposer la documentation technique.  
 
-Git et un language,une techno.
+Git et un language,une techno.Git est un logiciel de gestion de versions décentralisé.
 
-Merci d'avoir suivi cette doc redigée en **MARKDOWN** toutes remarques ou appreciations et la Bienvenue.
+Merci d'avoir suivi cette doc redigée en **MARKDOWN** toutes remarques ou appréciations et la Bienvenue.
 
